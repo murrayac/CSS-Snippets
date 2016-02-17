@@ -1,0 +1,7 @@
+/* Sidbar before content on mobile
+
+@media only screen and (max-width: 1023px) {
+    .content-sidebar-wrap {display:table;}
+    .content {display:table-footer-group; float: none;}
+    .sidebar {display:table-header-group; float: none;}
+}
